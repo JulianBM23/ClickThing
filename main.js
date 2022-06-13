@@ -63,7 +63,11 @@ function timerEnd() {
 /* On click Button "Reset Counter" */
 btn_03.onclick = function Reset(){
     updateStats()
-        /* Reset count */
+    resetCount()
+}
+
+/* Reset count */
+function resetCount() {
     count = 0
     btn.innerHTML = "Clicks:" + count
     resets += 1
