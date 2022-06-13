@@ -1,0 +1,55 @@
+body{
+
+    background: linear-gradient(-45deg, rgb(0, 0, 0), grey);
+    margin: 0;
+    padding: 0;
+}
+
+.ClickCounter {
+    margin: 100px auto;
+    text-align: center;
+} 
+
+/* Does the basic design of all buttons i think */
+button {
+    text-align: center;
+    padding: 20px 30px;
+    background: transparent;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    border: 1px solid pink;
+    color: rgb(211, 43, 226);
+    text-shadow: 1px 1px 1px #202020;
+    margin: 1%
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.ClickCounterMechanism {
+    user-select: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.HideCounter {
+    scale: 10%; /* ? doesnt work ? */
+}
+
+.ShowCounter {
+    text-align: center;
+}
+
+.Stats {
+    text-align: center;
+}
+
+.HideStats {
+    border-top: 100px;
+}
+
+.ClickButton {
+    visibility: hidden;
+}
